@@ -17,5 +17,5 @@ int main()
 
     // n = Ar / Qs * 100%
     cout << "КПД: " << ((received / spent) * 100) << "%" << endl;
-    if (received >= spent) cout << "| + КПД Выше 100% в реальном мире невозможен.";
+    if (received >= spent) cout << "| + КПД Выше 99% в реальном мире невозможен.";
 }
